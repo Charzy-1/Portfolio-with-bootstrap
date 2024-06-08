@@ -1,0 +1,20 @@
+body {
+  background-color: #4d453e;
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #ffd700 !important; /* Custom logo color */
+}
+
+.nav-link {
+  color: #fff !important; /* Custom link color */
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%); /* Make the toggler icon white */
+}
+
+.navbar-collapse {
+  border-top: 1px solid #fff; /* White line for dropdown */
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/karela.woff" />
+    <link rel="stylesheet" type="text/css" href="fonts/karela.woff2" format="format('woff2')" />
+</head>
+
+<body class="text-light py-0">
+    <nav class="navbar navbar-expand-lg navbar-dark px-3 bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold"  href="#">My Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-dark">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                  <button type="button" class="btn-close text-reset btn-close-inverted" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-dark"> 
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold text-white" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold text-white" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold text-white" href="#"><i class="bi bi-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  <!-- Hero section -->
+    <div class="container-fluid bg-black">
+        <div class="bg-image d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 d-none d-md-flex flex-column align-items-start  justify-content-left social-icons">
+                        <a href="#" class="p-0 mt-5"><i class="bi bi-github"></i></a>
+                        <a href="#" class="p-0"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="p-0"><i class="bi bi-stack-overflow"></i></a>
+                        <a href="#" class="p-0"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="p-0"><i class="bi bi-medium"></i></a>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="display-4 text-warning fw-bold">Hey There.</h1>
+                        <h2 class="text-warning fw-bold">I'm Charles.</h2>
+                        <p class="lead fw-bold">I'm a Software Developer</p>
+                        <p>I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+                    </div>
+                
+                </div>
+                <div class="row d-flex d-md-none justify-content-center social-icons">
+                    <div class="col-12 d-flex flex-row">
+                        <a href="#" class="p-0"><i class="bi bi-github"></i></a>
+                        <a href="#" class="p-0"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="p-0"><i class="bi bi-stack-overflow"></i></a>
+                        <a href="#" class="p-0"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="p-0"><i class="bi bi-medium"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-2">
+        <div class="d-flex align-items-center mb-4">
+            <h2 class="me-2 text-dark fw-bold">My Recent Works</h2>
+            <hr class="custom-hr">
+        </div>
+      
+        <div class="row align-items-center text-md-start">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <img src="./images/Img Placeholder (1).png" class="img-fluid w-100 h-60" alt="Project Image">
+              </div>
+              
+            <div class="col-md-8 text-dark">
+                <h3 class="fw-bold col-6">Multi-Post Services</h3>
+                <p>A daily selection of privately personalized reads; no accounts or sign-up required. This has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <div class="mb-3">
+                    <span class="badge bg-light text-dark border">HTML</span>
+                    <span class="badge bg-light text-dark border">CSS</span>
+                    <span class="badge bg-light text-dark border">Javascript</span>
+                </div>
+                <button class="btn btn-warning text-white">See project</button>
+            </div>
+        </div>
+    </div>
+
+<!-- The grid secion -->
+<div class="container my-3">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="./images/image4.png" class="img-fluid" alt="Project Image">
+                <div class="portfolio-content d-flex flex-column justify-content-center text-left">
+                    <h3 class="fw-bold">Charzy's Portfolio</h3>
+                    <p>A webpage that contains all that i built</p>
+                    <div class="mt-5">
+                        <span class="badge bg-light text-dark border">HTML</span>
+                        <span class="badge bg-light text-dark border">CSS</span>
+                        <span class="badge bg-light text-dark border">Javascript</span>
+                    </div>
+                </div>
+                <div class="portfolio-hover">
+                    See Project
+                </div>
+            </div>
+        </div>
+        <!-- Repeat for other projects -->
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="images/image4.png" class="img-fluid" alt="Project Image">
+                <div class="portfolio-content d-flex flex-column justify-content-center text-left">
+                    <h3 class="fw-bold">Charzy Global Services</h3>
+                    <p>My graphics and printing business site</p>
+                    <div class="mt-5">
+                        <span class="badge bg-light text-dark border">HTML</span>
+                        <span class="badge bg-light text-dark border">CSS</span>
+                        <span class="badge bg-light text-dark border">Javascript</span>
+                    </div>
+                </div>
+                <div class="portfolio-hover">
+                    See Project
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="images/image4.png" class="img-fluid" alt="Project Image">
+                <div class="portfolio-content d-flex flex-column justify-content-center text-left">
+                    <h3 class="fw-bold">St. Barnabas Chaplaincy</h3>
+                    <p>A Catholic church website in North Cyprus</p>
+                    <div class="mt-5">
+                        <span class="badge bg-light text-dark border">HTML</span>
+                        <span class="badge bg-light text-dark border">CSS</span>
+                        <span class="badge bg-light text-dark border">Javascript</span>
+                    </div>
+                </div>
+                <div class="portfolio-hover">
+                    See Project
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="images/image4.png" class="img-fluid" alt="Project Image">
+                <div class="portfolio-content d-flex flex-column justify-content-center text-left">
+                    <h3 class="fw-bold">Fin. Xchange site</h3>
+                    <p>A web that allows financial trading</p>
+                    <div class="mt-5">
+                        <span class="badge bg-light text-dark border">HTML</span>
+                        <span class="badge bg-light text-dark border">CSS</span>
+                        <span class="badge bg-light text-dark border">Javascript</span>
+                    </div>
+                </div>
+                <div class="portfolio-hover">
+                    See Project
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="images/image4.png" class="img-fluid" alt="Project Image">
+                <div class="portfolio-content d-flex flex-column justify-content-center text-left">
+                    <h3 class="fw-bold">CGS blog</h3>
+                    <p>webpage where blog posts are shared</p>
+                    <div class="mt-5">
+                        <span class="badge bg-light text-dark border">HTML</span>
+                        <span class="badge bg-light text-dark border">CSS</span>
+                        <span class="badge bg-light text-dark border">Javascript</span>
+                    </div>
+                </div>
+                <div class="portfolio-hover">
+                    See Project
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <img src="images/image4.png" class="img-fluid" alt="Project Image">
+                <div class="portfolio-content d-flex flex-column justify-content-center text-left">
+                    <h3 class="fw-bold">E-commercy website</h3>
+                    <p>This is an e-commerce website</p>
+                    <div class="mt-5">
+                        <span class="badge bg-light text-dark border">HTML</span>
+                        <span class="badge bg-light text-dark border">CSS</span>
+                        <span class="badge bg-light text-dark border">Javascript</span>
+                    </div>
+                </div>
+                <div class="portfolio-hover">
+                    See Project
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<section class="section about-section bg-black">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2 class="text-warning">About me</h2>
+          <p>Hey there! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+          <button class="btn btn-warning mt-3 text-white">Get my resume</button>
+        </div>
+        <div class="col-md-6 text-end">
+          <img src="./images/Frame.png" alt="Abstract Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section skills-section bg-black">
+    <div class="container">
+      <hr>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h4 class="text-warning">Language</h4>
+          <ul class="list-unstyled">
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class="text-warning">Frameworks</h4>
+          <ul class="list-unstyled">
+            <li>React.js</li>
+            <li>Ruby on Rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class="text-warning">Skills</h4>
+          <ul class="list-unstyled">
+            <li>Database Management</li>
+            <li>Version Control</li>
+            <li>CLI</li>
+            <li>API Design</li>
+            <li>Web Development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- form section -->
+  <div class="container mt-5 mb-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6">
+        <div class="contact-section mb-3">
+          <p class="text-muted">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+        </div>
+        <form id="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+          <div class="form-group mb-3">
+            <input type="text" name="first_name" placeholder="First Name" maxlength="30" required>
+            <input type="text" name="last_name" placeholder="Last Name" maxlength="30" required>
+          </div>
+          <div class="form-group mb-3">
+            <input type="email" name="email" placeholder="Email address" required>
+          </div>
+          <div class="form-group mb-3">
+            <textarea name="message" placeholder="Write me something..." maxlength="500" required></textarea>
+          </div>
+          <button type="submit" id="submit-button" class="btn btn-primary float-end">Get in Touch</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  
+
+<div  class="row d-flex d-md-none justify-content-center social-icons">
+    <div  class="col-12 d-flex flex-row">
+        <li><a href="#" ></a><img src="./images/git2.png" alt="github svg1"></li>
+        <li><a href="#"></a><img src="./images/link2.png" alt="linkin svg2"></li>
+        <li><a href="#"></a><img src="./images/fin2.png" alt="finger svg2"></li>
+        <li><a href="#"></a><img src="./images/twit2.png" alt="twiter svg2"></li>
+        <li><a href="#"></a><img src="./images/M2.png" alt="medium svg2"></li>
+    </div>
+</div>
+</div>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
